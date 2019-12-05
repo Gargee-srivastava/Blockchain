@@ -5,11 +5,18 @@ In simpler terms, Geth is a program which serves as a node for the Ethereum bloc
 
 Install Geth and other development tools:
 
-1.Geth(Refer the installation command folder here)
+**1.Geth**(Refer the installation command folder here)
 
-2.Ganache
+**2.Ganache**
 
-3.Truffle
+   Ganache is a personal blockchain for Ethereum development you can use to deploy contracts, develop your applications, and run tests. It is available as both a desktop application as well as a command-line tool (formerly known as the TestRPC). Ganache is available for Windows, Mac, and Linux.
+Simply go to this site: https://www.trufflesuite.com/ganache and download ganache for your system(windows/linux (P.S. I have used windows system here and all instructions are for Windows)
+Ganache gives us 10 accounts each having 100 ethers. So, we do not need to mine ethers like we have to do in case of Geth
+
+**3.Truffle**
+
+ Now that we have our very own private blockchain, we need a development environment for our project. For that I have used Truffle. But there are some requirements for Truffle. It needs nodejs and npm to be installed first.
+To install go to: https://www.npmjs.com/get-npm All information related to what is npm and why we need it is given there.
 
 To setup a private blockchain,steps are as follows:
 
