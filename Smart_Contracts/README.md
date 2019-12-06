@@ -1,6 +1,6 @@
-**SUPPLY_CHAIN USING BLOCKCHAIN**
+# SUPPLY_CHAIN USING BLOCKCHAIN
       
-      - under guidance of Dr. Raju Halder Sir(IIT PATNA)
+     **under guidance of Dr. Raju Halder Sir(IIT PATNA)**
 
 **What is it?**
 
