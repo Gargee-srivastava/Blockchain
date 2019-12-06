@@ -1,4 +1,4 @@
-**Geth**
+# Geth
 
 Geth is an implementation of an Ethereum node in the Go programming language.
 In simpler terms, Geth is a program which serves as a node for the Ethereum blockchain, and via which a user can mine Ether and create software which runs on the EVM – the Ethereum Virtual Machine.
