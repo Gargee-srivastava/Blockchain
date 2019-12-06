@@ -1,0 +1,50 @@
+By running geth and entering the start of each of the global objects I'm aware of I can get the following lists, 
+but I won't mark this as the correct answer as I'm sure there is documentation out there somewhere.
+
+>eth.
+
+eth._requestManager            eth.getBlockUncleCount         eth.getWork                    
+eth.accounts                   eth.getCode                    eth.hashrate                   
+eth.blockNumber                eth.getCoinbase                eth.iban                       
+eth.call                       eth.getCompilers               eth.icapNamereg                
+eth.coinbase                   eth.getGasPrice                eth.isSyncing                  
+eth.compile                    eth.getHashrate                eth.mining                     
+eth.constructor                eth.getMining                  eth.namereg                    
+eth.contract                   eth.getPendingTransactions     eth.pendingTransactions        
+eth.defaultAccount             eth.getProtocolVersion         eth.protocolVersion            
+eth.defaultBlock               eth.getRawTransaction          eth.resend                     
+eth.estimateGas                eth.getRawTransactionFromBlock eth.sendIBANTransaction        
+eth.filter                     eth.getStorageAt               eth.sendRawTransaction         
+eth.gasPrice                   eth.getSyncing                 eth.sendTransaction            
+eth.getAccounts                eth.getTransaction             eth.sign                       
+eth.getBalance                 eth.getTransactionCount        eth.signTransaction            
+eth.getBlock                   eth.getTransactionFromBlock    eth.submitTransaction          
+eth.getBlockNumber             eth.getTransactionReceipt      eth.submitWork                 
+eth.getBlockTransactionCount   eth.getUncle                   eth.syncing                    
+
+> personal.
+
+personal._requestManager personal.getListWallets  personal.newAccount      
+personal.constructor     personal.importRawKey    personal.sendTransaction 
+personal.deriveAccount   personal.listAccounts    personal.sign            
+personal.ecRecover       personal.listWallets     personal.unlockAccount   
+personal.getListAccounts personal.lockAccount 
+
+> admin.
+
+admin.addPeer              admin.importChain          admin.startRPC             
+admin.constructor          admin.isPrototypeOf        admin.startWS              
+admin.datadir              admin.nodeInfo             admin.stopRPC              
+admin.exportChain          admin.peers                admin.stopWS               
+admin.getDatadir           admin.propertyIsEnumerable admin.toLocaleString       
+admin.getNodeInfo          admin.removePeer           admin.toString             
+admin.getPeers             admin.sleep                admin.valueOf              
+admin.hasOwnProperty       admin.sleepBlocks          
+
+> miner.
+
+miner.constructor          miner.setEtherbase         miner.toLocaleString       
+miner.getHashrate          miner.setExtra             miner.toString             
+miner.hasOwnProperty       miner.setGasPrice          miner.valueOf              
+miner.isPrototypeOf        miner.start                
+miner.propertyIsEnumerable miner.stop
