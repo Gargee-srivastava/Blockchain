@@ -1,0 +1,36 @@
+.button{
+	  background-color: #db5046;
+	  border:none;
+	  color: white;
+	  height:60px;
+          width 150px;
+          text-align:centre;
+          front-size:16px;
+  }
+.button:hover{
+      background-color :#ad342b;
+      color: white;
+}
+table{
+	width:50%
+}
+table,th ,td {
+	border:2px solid #ededed;
+	border-collapse : collapse;
+}
+th ,td {
+padding : 15px;
+text-align :centre;
+}
+
+table#vote_table tr:nth-child(even) {
+ background-color :#fff;
+}
+
+table#vote_table tr:nth-child(odd) {
+ background-color :#d8d8d8;
+}
+table#vote_table th {
+ background-color :#7a7a7a;
+ color:white;
+}
